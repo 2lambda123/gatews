@@ -1,0 +1,115 @@
+repo_name: 2lambda123/gatews
+report_id: 4f15c5a1b9b0fdea5179479550a2cdd3
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:18:18+00:00'
+requested_by: Sinclair-Ni
+provider: github
+branch: master
+detected_tools_count: 8
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/2lambda123/gatews
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/2lambda123/gatews
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/gatews
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/gatews/blob/master/python/requirements.txt
+  detection_source: python/requirements.txt
+  last_updated_by: Revil Wang
+  last_updated_on: 2021-04-12 09:55:23.000000000 Z
+- name: Websockets
+  description: A technology that makes it possible to open a two-way interactive communication
+  website_url: https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
+  version: '8.1'
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4220/LNPwoiWi_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/gatews/blob/master/python/requirements.txt
+  detection_source: python/requirements.txt
+  last_updated_by: Revil Wang
+  last_updated_on: 2021-04-12 09:55:23.000000000 Z
+- name: golang-set
+  description: A simple set type for the Go language. Also used in Docker
+  package_url: https://pkg.go.dev/github.com/deckarep/golang-set
+  version: 1.7.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/gatews/blob/master/go/go.sum
+  detection_source: go/go.mod
+  last_updated_by: nizonglong
+  last_updated_on: 2021-04-12 10:31:10.000000000 Z
+- name: websocket
+  description: A fast
+  package_url: https://pkg.go.dev/github.com/gorilla/websocket
+  version: 1.4.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/gatews/blob/master/go/go.sum
+  detection_source: go/go.mod
+  last_updated_by: nizonglong
+  last_updated_on: 2021-04-12 10:31:10.000000000 Z
+- name: websockets
+  description: An implementation of the WebSocket Protocol
+  package_url: https://pypi.org/project/websockets
+  version: '8.1'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19951/default_fbe690a687f1af7dc36ac3d526708be3294c4cc9.png
+  detection_source_url: https://github.com/2lambda123/gatews/blob/master/python/requirements.txt
+  detection_source: python/requirements.txt
+  last_updated_by: Revil Wang
+  last_updated_on: 2021-04-12 09:55:23.000000000 Z
+  vulnerabilities:
+  - name: Observable Timing Discrepancy in aaugustin websockets library
+    cve_id: CVE-2021-33880
+    cve_url: https://github.com/advisories/GHSA-8ch4-58qp-g3mp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: '9.1'
